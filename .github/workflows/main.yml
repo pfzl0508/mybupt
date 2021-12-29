@@ -2,7 +2,7 @@ name: BUPT ncov auto-report Python+Actions V3.0
 
 on:
   schedule:
-    - cron: "*/15 0,1 * * *"
+    - cron: "*/5 7,8 * * *"
   workflow_dispatch:
 
 jobs:
